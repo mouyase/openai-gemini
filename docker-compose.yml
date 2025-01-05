@@ -1,0 +1,7 @@
+services:
+  openai-gemini:
+    build: .
+    container_name: openai-gemini
+    restart: always
+    ports:
+      - 20001:8080
